@@ -77,7 +77,7 @@ class SigninPage extends StatelessWidget {
                       MaterialPageRoute(builder: (builder) => BottomBarPage()));
                 },
                 style: ElevatedButton.styleFrom(
-                  primary: Colors.deepPurple,
+                  backgroundColor: Colors.deepPurple,
                 ),
                 child: Text(
                   'Sign In',
